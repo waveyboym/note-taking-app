@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d271141ba3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Note Taking App</title>
+</head>
+<body>
+    <div class="note-open-section">
+        
+    </div>
+    <nav class="header-section">
+        <div class="name">
+            <h1>Note Taking App</h1>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" id="myText" placeholder="I would like...">
+        </div>
+
+        <div class="cancel">
+            <h1 onclick="cancelSearchEdit()">cancel</h1>
+        </div>
+
+        <div class="search">
+            <i class="fas fa-search" onclick="search()"></i>
+        </div>
+
+        <div class="edit" >
+            <h1 onclick="editNotes()">edit</h1>
+        </div>
+    </nav>
+
+    <nav class="main-section">
+        <nav class="addNewNote">
+            <nav class="notebox">
+                <i class="fas fa-plus" onclick="addNewNote()"></i>
+            </nav>
+        </nav>
+    </nav>
+
+    <div class="main-footer">
+        <nav class="design-info">
+            <h1>Designed</h1>
+            <h1>by</h1>
+            <h1>Michael</h1>
+        </nav>
+        <h2>WAVEY 2022. All rights reserved.</h2>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
